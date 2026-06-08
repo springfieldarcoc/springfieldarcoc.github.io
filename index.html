@@ -5,101 +5,74 @@
 <title>Church of Christ in Springfield, AR</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Barlow Condensed Font -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dynalight&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   
 <link rel="stylesheet" href="style.css">
 
-<style>
-
-body, a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  text-align: center;
-  item-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-}
-
-</style>
 </head>
-
 <body>
 
 <!-- Facebook plugin-->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://facebook.net"></script>
 
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button">Springfield Church of Christ</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#sermons" class="w3-bar-item w3-button">Sermons</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
-  </div>
+<!-- Navbar -->
+<div id="navbar">
+      <a href="#about">About</a>
+      <a href="#studies-and-announcements">Studies & Announcements</a>
+      <a href="#contact">Contact</a>
 </div>
 
-
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="IMG_2797.jpeg" alt="Springfield Church of Christ" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">Springfield Church of Christ</h1>
+<header id="home">
+  <img src="IMG_2797.jpeg" alt="Springfield Church of Christ" width="1600" height="800">
+  <div>
+    <h1>Springfield</h1><h1>Church of Christ</h1>
   </div>
 </header>
 
-
 <!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
+<div>
 
   <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
+  <div id="about">
     
 
-    <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About Springfield</h1><br>
-<div class="w3-col m6 w3-padding-large w3-hide-small">
-      <h4>Sunday Schedule: </h4>
+    <div>
+      <h2>About Springfield</h2><br>
+<div>
+      <h3>Sunday Schedule: </h3>
       <ul>
         <li>10-10:50am — Morning Class</li>
         <li>11am-12pm — Morning Sermon</li>
-        <li>12-1pm — Lunch Break (optional lunch in the annex)</li>
+        <li>12-1pm — Lunch Break</li><p>(optional BYO lunch in the annex)</p>
         <li>1-2pm — Afternoon Class/Q&A</li>
       </ul>
       
-      <h4>Wednesday Schedule: </h4>
+      <h3>Wednesday Schedule: </h3>
       <ul>
         <li>6:30-7:30pm — Evening Class</li>
       </ul>
     </div>
 
-<p class="w3-large">We welcome you to join us at your local church of Christ.  </p>
+<h4>We welcome you to join us at your local church of Christ.  </h4>
   </div>
-  
+
+
+
+  <!-- Studies & Announcements Section -->
   <hr>
+  <div id="studies-and-announcements">
 
-  <!-- Sermons Section -->
-  <div class="w3-row w3-padding-64" id="sermons">
-
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Facebook</h1><br>
-    <div class="w3-col l6 w3-padding-large">
+    <div>
+      <h2>Studies & Announcements</h2><br>
+    <div>
    
     
     <div class="fb-page" 
@@ -115,26 +88,13 @@ h1, h2, h3, h4, h5, h6 {
     
     </div>
   </div>
-
   <hr>
 
 
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1>
+  <div id="contact">
+    <h2>Contact</h2>
     <p>Dennis Smith (preacher): (501) 691-9021</p>
-    <p class="w3-text-blue-grey w3-large">1997 AR-92</p>
-    <p class="w3-text-blue-grey w3-large">Springfield, AR 72157</p>
+    <p>1997 AR-92</p>
+    <p>Springfield, AR 72157</p>
   </div>
-
-  
-<!-- End page content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
-
-</body>
-</html>
